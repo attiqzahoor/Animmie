@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animmie Creating AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpeg" type="image/png"> <!-- Favicon added here -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Animmie Creating AI</h1>
+            <!-- Add your navigation items here -->
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="imageForm">
+                <label for="prompt">Enter a prompt:</label>
+                <input type="text" id="prompt" name="prompt" required>
+                <button type="submit">Generate Image</button>
+            </form>
+        </section>
+
+        <section>
+            <div id="spinner" class="spinner"></div>
+            <img id="generatedImage" style="display: none;" alt="Generated Image">
+            <a id="downloadLink" href="#" download="generated-image.png" style="display: none;">Download Image</a>
+        </section>
+
+        <section id="about" class="section-about">
+            <h2>About</h2>
+            <p>Welcome to <strong>Animmie Creating AI</strong>, your gateway to bringing your wildest anime dreams to life! We believe that imagination has no limits, and we're here to turn your creative prompts into stunning anime artwork with just a few clicks.</p>
+            <p><strong>Unleash Your Creativity:</strong> Whether you're a die-hard anime fan or someone with a vivid imagination, our platform empowers you to generate unique anime images based on the prompts you provide. Simply describe your vision, and watch as our advanced AI transforms your words into captivating anime visuals.</p>
+            <p><strong>Innovative Technology:</strong> Powered by cutting-edge AI technology, Animmie Creating AI leverages the latest advancements in machine learning to create high-quality, original anime images. Our system understands and interprets your prompts with remarkable accuracy, ensuring that every piece of art is as unique as your imagination.</p>
+            <p><strong>User-Friendly Experience:</strong> Our intuitive and user-friendly interface makes it easy for anyone to start creating their own anime masterpieces. No need for complicated software or artistic skills—just input your prompt, hit generate, and enjoy your personalized anime artwork.</p>
+            <p><strong>Inspiration Awaits:</strong> Explore our gallery of generated artworks for inspiration or share your creations with a vibrant community of fellow anime enthusiasts. Whether you're looking to create a character for your next story, design a one-of-a-kind poster, or simply indulge in some artistic fun, Animmie Creating AI is your ultimate destination.</p>
+            <p><strong>Get Started Today:</strong> Dive into the world of anime creation and turn your ideas into breathtaking visuals. Explore, create, and be amazed!</p>
+        </section>
+
+        <section id="how-to" class="section-how-to">
+            <h3>How to Generate Anime Images</h3>
+            <ol>
+                <li><strong>Access the Generator:</strong> Visit our website and navigate to the “Anime Image Generator” section. You’ll find it right on the homepage—no need to sign up or log in!</li>
+                <li><strong>Enter Your Prompt:</strong> In the provided text box, type a detailed description of the anime character, scene, or concept you want to create. The more specific and imaginative you are, the better the result will be. Example: “A mystical anime warrior with long, flowing red hair, wearing a black and gold kimono, wielding a glowing sword in a magical forest.”</li>
+                <li><strong>Customize Settings (Optional):</strong> If available, select from various art styles (e.g., classic, modern, chibi) to tailor the image to your preference. Fine-tune elements such as colors, poses, or backgrounds if the platform offers these customization options.</li>
+                <li><strong>Generate the Image:</strong> Click the “Generate” button to start the creation process. Our advanced AI will work its magic, turning your description into a vibrant anime image. This might take a few moments.</li>
+                <li><strong>View and Download:</strong> Once the image is generated, view it directly on the results page. If you’re happy with the result, click the “Download” button to save the image to your device.</li>
+                <li><strong>Explore More:</strong> Feel free to enter new prompts and generate more anime images. Experiment with different descriptions and settings to see what exciting creations you can come up with! Share your favorite images with friends or on social media, and explore other users’ creations for more inspiration.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Animmie Creating AI</p>
+        <div class="social-media">
+            <a href="https://twitter.com" target="_blank" class="fa fa-twitter" aria-label="Twitter"></a>
+            <a href="https://facebook.com" target="_blank" class="fa fa-facebook" aria-label="Facebook"></a>
+            <!-- Add more social media icons as needed -->
+        </div>
+    </footer>
+</body>
+</html>
