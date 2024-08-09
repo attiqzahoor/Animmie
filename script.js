@@ -4,7 +4,7 @@ async function query(data) {
             "https://api-inference.huggingface.co/models/cagliostrolab/animagine-xl-3.1",
             {
                 headers: {
-                    "Authorization": "Bearer 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",
+                    "Authorization": "Bearer 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",
                     "Content-Type": "application/json",
                 },
                 method: "POST",
